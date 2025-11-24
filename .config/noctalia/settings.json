@@ -33,7 +33,7 @@
         "marginVertical": 0.25,
         "monitors": [
         ],
-        "outerCorners": true,
+        "outerCorners": false,
         "position": "top",
         "showCapsule": true,
         "widgets": {
@@ -80,10 +80,6 @@
                 },
                 {
                     "displayMode": "onhover",
-                    "id": "Volume"
-                },
-                {
-                    "displayMode": "onhover",
                     "id": "Bluetooth"
                 },
                 {
@@ -112,7 +108,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Tokyo Night",
+        "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -139,7 +135,7 @@
                 "id": "media-sysmon-card"
             }
         ],
-        "position": "close_to_bar_button",
+        "position": "top_left",
         "shortcuts": {
             "left": [
                 {
@@ -193,8 +189,8 @@
         "radiusRatio": 1,
         "scaleRatio": 0.9500000000000001,
         "screenRadiusRatio": 1,
-        "shadowDirection": "bottom_right",
-        "shadowOffsetX": 2,
+        "shadowDirection": "bottom",
+        "shadowOffsetX": 0,
         "shadowOffsetY": 3,
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false
@@ -229,15 +225,15 @@
         "nightTemp": "4000"
     },
     "notifications": {
-        "backgroundOpacity": 1,
-        "criticalUrgencyDuration": 15,
+        "backgroundOpacity": 0.8,
+        "criticalUrgencyDuration": 10,
         "enableKeyboardLayoutToast": true,
         "enabled": true,
         "location": "top_right",
-        "lowUrgencyDuration": 3,
+        "lowUrgencyDuration": 2,
         "monitors": [
         ],
-        "normalUrgencyDuration": 8,
+        "normalUrgencyDuration": 5,
         "overlayLayer": true,
         "respectExpireTimeout": false
     },
@@ -339,7 +335,7 @@
         "fontDefaultScale": 0.92,
         "fontFixed": "DejaVu Sans Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 1,
+        "panelBackgroundOpacity": 0.6,
         "panelsAttachedToBar": true,
         "settingsPanelAttachToBar": false,
         "tooltipsEnabled": true
@@ -348,7 +344,7 @@
         "defaultWallpaper": "/etc/xdg/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
         "directory": "/home/skarr/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
-        "enabled": false,
+        "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,

@@ -62,12 +62,7 @@ input {
     focus-follows-mouse max-scroll-amount="0%"
 }
 
-// You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
-// The built-in laptop monitor is usually called "eDP-1".
-// Find more information on the wiki:
-// https://yalter.github.io/niri/Configuration:-Outputs
-// Remember to uncomment the node by removing "/-"!
 output "eDP-1" {
     // Uncomment this line to disable this output.
     // off
@@ -104,7 +99,7 @@ output "eDP-1" {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 10
+    gaps 6
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -262,7 +257,6 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "qs" "-c" "noctalia-shell"
-spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/silksong.jpg"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -353,7 +347,7 @@ binds {
 
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
-    Mod+Shift+Slash { show-hotkey-overlay; }
+    Mod+Shift+Space { show-hotkey-overlay; }
 
     Mod+Escape hotkey-overlay-title="Session menu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
