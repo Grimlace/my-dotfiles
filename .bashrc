@@ -6,10 +6,15 @@
 [[ $- != *i* ]] && return
 
 # Aliases
-alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ff="fzf"
 
+alias ls="eza --long --icons"
+alias lss="eza --long --icons --tree --level=2"
+
 # PS1='\[\e[38;5;208m\]\w\[\e[38;5;214m\]$(git branch --show-current 2>/dev/null | sed "s/^/ 󰊢 "/) λ  \[\e[0m\]'
 
+# Evals
 eval "$(starship init bash)"
+
+eval "$(zoxide init bash)"
