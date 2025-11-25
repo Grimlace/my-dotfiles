@@ -4,10 +4,18 @@ $directory\
 $git_branch\
 $git_status\
 
+$bun\
+$c\
+$golang\
+$python\
+$lua\
+$java\
+
 $fill\
 
 $cmd_duration\
 $time\
+$shell\
 $line_break\
 
 $character
@@ -36,6 +44,7 @@ style = "bold red"
 [git_status]
 format = "[$all_status$ahead_behind]($style) "
 ahead = ""
+behind = ""
 style = "bold red"
 
 [fill]
@@ -44,12 +53,22 @@ style = "bold yellow"
 
 [time]
 disabled = false
-format = " [ $time]($style)"
+format = " [ $time]($style) "
 time_format = "%H:%M"
 style = "bold lavender"
 
 [cmd_duration]
 format = " [$duration](bold flamingo) "
+
+[shell]
+disabled = false
+bash_indicator = ""
+zsh_indicator = ""
+fish_indicator = ""
+nu_indicator = ""
+unknown_indicator = ""
+format = "[$indicator]($style) "
+style = "bold green"
 
 [line_break]
 disabled = false
