@@ -9,9 +9,8 @@ font-size = 14
 
 background-opacity = 0.95
 
-confirm-close = false
-confirm-exit = false
-quit-when-last-window-closed = true
+quit-after-last-window-closed = true
+confirm-close-surface = false
 
 # window-padding-x = 2
 
