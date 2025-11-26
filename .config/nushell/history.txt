@@ -25,3 +25,25 @@ git status
 git diff .bashrc
 nvim .bashrc
 git add
+git add .
+git commit -m "bash and nushell config"
+git push
+ls
+ls | order by size
+ls | order-by size
+hola
+ls hola
+ls
+ls -a
+ls | sort-by size
+ls | where 
+ls | where name=fuzzel
+ls | where name fuzzel
+ls | where name=fuzzel
+ls
+ls | where name=fish
+ls | where name="fish"
+ls | where name==fish
+ls 
+ls | where name = fish
+ls | where name == fish

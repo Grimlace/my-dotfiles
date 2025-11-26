@@ -9,7 +9,6 @@
 export PATH=$HOME/.local/bin:$PATH
 
 # Aliases
-alias grep='grep --color=auto'
 alias ff="fzf"
 
 alias ls="eza --long --icons"

@@ -365,6 +365,7 @@ binds {
     Mod+space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
 
     Mod+B hotkey-overlay-title="Open browser" { spawn "zen-browser"; }
+    Mod+Y hotkey-overlay-title="Open yazi file browser" { spawn-sh "ghostty -e yazi"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
