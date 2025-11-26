@@ -17,6 +17,10 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 
+$env.config = {
+    show_banner: false  
+}
+
 # Aliases
 
 alias v = nvim
@@ -31,9 +35,9 @@ alias lsa = ls -a
 alias lsl = ls -l
 
 # Starship
-
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
+# Zoxide 
 source ~/.zoxide.nu
 

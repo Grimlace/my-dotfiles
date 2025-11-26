@@ -75,3 +75,4 @@ ls
 eza | rg "dot"
 ls
 ls | where name =~ dot
+chsh -s /bin/fish
