@@ -6,8 +6,9 @@
 [[ $- != *i* ]] && return
 
 # Defaults
-export EDITOR='nvim'
-export VISUAL='nvim'
+export EDITOR="nvim"
+export VISUAL="$EDITOR"
+export SUDO_EDITOR="$EDITOR"
 
 # Path
 export PATH=$HOME/.local/bin:$PATH

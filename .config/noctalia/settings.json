@@ -25,7 +25,7 @@
     },
     "bar": {
         "backgroundOpacity": 1,
-        "capsuleOpacity": 0.85,
+        "capsuleOpacity": 0.7000000000000001,
         "density": "compact",
         "exclusive": true,
         "floating": false,
@@ -33,7 +33,7 @@
         "marginVertical": 0.25,
         "monitors": [
         ],
-        "outerCorners": false,
+        "outerCorners": true,
         "position": "top",
         "showCapsule": true,
         "widgets": {
@@ -108,7 +108,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Tokyo Night",
+        "predefinedScheme": "Rosepine",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -183,9 +183,9 @@
         "animationDisabled": false,
         "animationSpeed": 0.9,
         "avatarImage": "/home/skarr/.face",
-        "compactLockScreen": false,
-        "dimmerOpacity": 0.3,
-        "enableShadows": true,
+        "compactLockScreen": true,
+        "dimmerOpacity": 0.15,
+        "enableShadows": false,
         "forceBlackScreenCorners": false,
         "language": "",
         "lockOnSuspend": true,
@@ -281,12 +281,12 @@
                 "enabled": true
             },
             {
-                "action": "reboot",
+                "action": "logout",
                 "countdownEnabled": true,
                 "enabled": true
             },
             {
-                "action": "logout",
+                "action": "reboot",
                 "countdownEnabled": true,
                 "enabled": true
             },
@@ -338,7 +338,7 @@
         "fontDefaultScale": 0.92,
         "fontFixed": "DejaVu Sans Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.7000000000000001,
+        "panelBackgroundOpacity": 0.9,
         "panelsAttachedToBar": true,
         "settingsPanelAttachToBar": false,
         "tooltipsEnabled": true
