@@ -11,13 +11,20 @@
 - Wallpapers: Silksong wallpaper
 
 Meant to be used with [GNU stow](https://www.gnu.org/software/stow/manual/stow.html)
-
+### Install stow 
+Arch Linux
 ```bash
 sudo pacman -S stow
 ```
 
+### Clone and stow this repo 
+1. Clone and cd
 ```bash
-git clone https://github.com/tuusuario/dotfiles.git ~/ && cd ~/dotfiles
+git clone https://github.com/Grimlace/my-dotfiles.git ~/ && cd ~/my-dotfiles
+```
+
+2. Stow
+```bash
 stow -R -v .
 ```
 
@@ -27,9 +34,9 @@ stow -R -v .
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - modern cd 
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - modern grep 
 - [neovim](https://github.com/neovim/neoviim) - [lazyvim](https://lazyvim.github.io/) for default editor
-- [yaziazi](https://github.com/sxyazi/yazi) - terminal file explorer
+- [yazi](https://github.com/sxyazi/yazi) - terminal file explorer
 - [btop](https://github.com/aristocratos/btop) - System monitor
-- [Starship](https://github.com/starship/starship) prompt for the three shells (bash, fish and nushell)
+- [starship](https://github.com/starship/starship) prompt for the three shells (bash, fish and nushell)
 
 ### Aliases 
 
