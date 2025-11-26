@@ -1,0 +1,27 @@
+ls
+eza
+eza --long
+eza --long --icons
+ls
+ls | rg "D"
+ls | grep "D"
+ls | ff
+ls | fzf
+ls
+z dotfiles
+eza dotfiles
+z dotfiles
+zoxide dotfiles
+ls
+eza
+ls
+z dotfiles
+z
+zi
+cd dotfiles/
+ls
+ls -a
+git status
+git diff .bashrc
+nvim .bashrc
+git add
