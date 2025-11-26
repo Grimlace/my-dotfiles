@@ -2,7 +2,7 @@
 
 ## Includes:
 - [Starship](https://starship.rs/) and configs for bash, [fish](https://github.com/fish-shell/fish-shell) and [nushell](https://github.com/nushell/nushell)
-- [Niri](https://github.com/nushell/nushell)
+- [Niri](https://github.com/YaLTeR/niri)
 - [Fuzzel](https://codeberg.org/dnkl/fuzzel) 
 - [Nvim](https://github.com/neovim/neovim) with [lazyvim](https://lazyvim.github.io/)
 - [Noctalia shell](https://github.com/noctalia-dev/noctalia-shell) 
@@ -26,8 +26,8 @@ stow -R -v .
 - [fzf](https://github.com/junegunn/fzf) - fuzzy finder
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - modern cd 
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - modern grep 
-- [Nvim](https://github.com/neovim/neovim) - [lazyvim](https://lazyvim.github.io/) for default editor
-- [Yazi](https://github.com/sxyazi/yazi) - terminal file explorer
+- [neovim](https://github.com/neovim/neoviim) - [lazyvim](https://lazyvim.github.io/) for default editor
+- [yaziazi](https://github.com/sxyazi/yazi) - terminal file explorer
 - [btop](https://github.com/aristocratos/btop) - System monitor
 - [Starship](https://github.com/starship/starship) prompt for the three shells (bash, fish and nushell)
 
