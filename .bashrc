@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Defaults
+export EDITOR='nvim'
+export VISUAL='nvim'
+
 # Path
 export PATH=$HOME/.local/bin:$PATH
 
