@@ -47,3 +47,31 @@ ls | where name==fish
 ls 
 ls | where name = fish
 ls | where name == fish
+ls
+ls .a
+ls -a
+tree
+eza
+eza --tree
+ls
+eza --nu
+ls
+eza
+ls
+ls --tree
+eza --tree
+eza
+ls
+ls -l
+lsa
+lsa | rg "."
+lsa | rg "dot"
+lsa | where name =~ dot
+lsl
+lsa
+lsa -l
+v
+ls
+eza | rg "dot"
+ls
+ls | where name =~ dot

@@ -2,10 +2,19 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 
     # Alias
-    alias ff "fzf"
+
+    alias v nvim
+
+    alias ff fzf
+
+    alias cd z
+    alias cdf zi
+    alias grep rg
 
     alias ls "eza --long --icons"
-    alias lss "eza --long --icons --tree --level=2"
+    alias lsa "ls -a"
+    alias lt "eza --long --icons --tree --level=2"
+    alias lta "lt -a"
 
     # Sources
     starship init fish | source

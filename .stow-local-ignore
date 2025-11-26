@@ -1,0 +1,16 @@
+# Directories
+^\fonts/*
+^\scripts/*
+
+# Git
+^\.git$
+^\.gitignore$
+^\.gitmodules$
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# Itself
+^\.stow-local-ignore$
+

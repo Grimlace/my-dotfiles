@@ -17,6 +17,19 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 
+# Aliases
+
+alias v = nvim
+
+alias ff = fzf
+alias grep = rg
+
+alias cd = z
+alias cdf = zi
+
+alias lsa = ls -a 
+alias lsl = ls -l
+
 # Starship
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
