@@ -31,6 +31,8 @@ alias lta="lt -a"
 # PS1='\[\e[38;5;208m\]\w\[\e[38;5;214m\]$(git branch --show-current 2>/dev/null | sed "s/^/ 󰊢 "/) λ  \[\e[0m\]'
 
 # Evals
+eval "$(mise activate bash)"
+
 eval "$(starship init bash)"
 
 eval "$(zoxide init bash)"

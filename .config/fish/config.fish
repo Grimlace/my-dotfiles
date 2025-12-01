@@ -19,6 +19,7 @@ if status is-interactive
     alias lta "lt -a"
 
     # Sources
+    mise activate fish | source
     starship init fish | source
     zoxide init fish | source
 end

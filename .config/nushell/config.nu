@@ -34,6 +34,8 @@ alias cdf = zi
 alias lsa = ls -a 
 alias lsl = ls -l
 
+# Mise 
+
 # Starship
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")

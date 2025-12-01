@@ -8,7 +8,7 @@
         ],
         "position": "center",
         "sortByMostUsed": true,
-        "terminalCommand": "xterm -e",
+        "terminalCommand": "ghostty -e",
         "useApp2Unit": false,
         "viewMode": "list"
     },
@@ -44,7 +44,7 @@
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
                     "useCustomFont": true,
-                    "usePrimaryColor": false
+                    "usePrimaryColor": true
                 }
             ],
             "left": [
@@ -87,7 +87,7 @@
                     "id": "WiFi"
                 },
                 {
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysShow",
                     "id": "Battery",
                     "warningThreshold": 25
                 }
@@ -107,10 +107,10 @@
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "matugenSchemeType": "scheme-fruit-salad",
+        "matugenSchemeType": "scheme-neutral",
         "predefinedScheme": "Rosepine",
         "schedulingMode": "off",
-        "useWallpaperColors": false
+        "useWallpaperColors": true
     },
     "controlCenter": {
         "cards": [
@@ -262,7 +262,7 @@
     },
     "sessionMenu": {
         "countdownDuration": 10000,
-        "enableCountdown": true,
+        "enableCountdown": false,
         "position": "center",
         "powerOptions": [
             {
@@ -296,7 +296,7 @@
                 "enabled": true
             }
         ],
-        "showHeader": true
+        "showHeader": false
     },
     "settingsVersion": 23,
     "setupCompleted": true,
@@ -317,11 +317,11 @@
         "alacritty": false,
         "cava": false,
         "code": false,
-        "discord": false,
+        "discord": true,
         "enableUserTemplates": false,
         "foot": false,
-        "fuzzel": false,
-        "ghostty": false,
+        "fuzzel": true,
+        "ghostty": true,
         "gtk": true,
         "kcolorscheme": true,
         "kitty": false,
@@ -334,7 +334,7 @@
         "wezterm": false
     },
     "ui": {
-        "fontDefault": "Roboto",
+        "fontDefault": "Maple Mono",
         "fontDefaultScale": 0.92,
         "fontFixed": "DejaVu Sans Mono",
         "fontFixedScale": 1,
@@ -360,8 +360,8 @@
         "recursiveSearch": false,
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 500,
-        "transitionEdgeSmoothness": 0.05,
-        "transitionType": "fade",
+        "transitionEdgeSmoothness": 0.15,
+        "transitionType": "none",
         "useWallhaven": false,
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
