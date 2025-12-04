@@ -24,8 +24,8 @@
         "volumeStep": 2
     },
     "bar": {
-        "backgroundOpacity": 1,
-        "capsuleOpacity": 0.7000000000000001,
+        "backgroundOpacity": 0.9500000000000001,
+        "capsuleOpacity": 0.8,
         "density": "compact",
         "exclusive": true,
         "floating": false,
@@ -44,7 +44,7 @@
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
                     "useCustomFont": true,
-                    "usePrimaryColor": true
+                    "usePrimaryColor": false
                 }
             ],
             "left": [
@@ -87,9 +87,9 @@
                     "id": "WiFi"
                 },
                 {
-                    "displayMode": "alwaysShow",
+                    "displayMode": "onhover",
                     "id": "Battery",
-                    "warningThreshold": 25
+                    "warningThreshold": 20
                 }
             ]
         }
@@ -228,15 +228,15 @@
         "nightTemp": "4000"
     },
     "notifications": {
-        "backgroundOpacity": 0.8,
+        "backgroundOpacity": 0.9,
         "criticalUrgencyDuration": 10,
         "enableKeyboardLayoutToast": true,
         "enabled": true,
         "location": "top_right",
-        "lowUrgencyDuration": 2,
+        "lowUrgencyDuration": 3,
         "monitors": [
         ],
-        "normalUrgencyDuration": 5,
+        "normalUrgencyDuration": 6,
         "overlayLayer": true,
         "respectExpireTimeout": false
     },
@@ -336,9 +336,9 @@
     "ui": {
         "fontDefault": "Maple Mono",
         "fontDefaultScale": 0.92,
-        "fontFixed": "DejaVu Sans Mono",
+        "fontFixed": "Maple Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.9,
+        "panelBackgroundOpacity": 0.9500000000000001,
         "panelsAttachedToBar": true,
         "settingsPanelAttachToBar": false,
         "tooltipsEnabled": true
@@ -361,7 +361,7 @@
         "setWallpaperOnAllMonitors": true,
         "transitionDuration": 500,
         "transitionEdgeSmoothness": 0.15,
-        "transitionType": "none",
+        "transitionType": "fade",
         "useWallhaven": false,
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",

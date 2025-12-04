@@ -170,7 +170,7 @@ layout {
         // You can use any CSS linear-gradient tool on the web to set these up.
         // Changing the color space is also supported, check the wiki for more info.
         //
-        active-gradient from="#FF5252" to="#FFBA4A" angle=45
+        active-gradient from="#35577D" to="#28623A" angle=45
 
         // You can also color the gradient relative to the entire view
         // of the workspace, rather than relative to just the window itself.
@@ -332,6 +332,12 @@ window-rule {
     clip-to-geometry true
 }
 
+// Make inactive windows semitransparent.
+window-rule {
+    match is-active=false
+    opacity 0.95
+}
+
 // Set the overview wallpaper on the backdrop.
 layer-rule {
   match namespace="^noctalia-overview*"
@@ -353,6 +359,9 @@ binds {
     //
     // Most actions that you can bind here can also be invoked programmatically with
     // `niri msg action do-something`.
+
+    // env
+    
 
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
