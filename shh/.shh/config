@@ -1,0 +1,11 @@
+# Github universidad
+Host github-uni
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/git_uni
+
+# Github personal
+Host github-me
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/git_me
