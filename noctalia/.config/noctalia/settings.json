@@ -108,7 +108,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-neutral",
-        "predefinedScheme": "Rosepine",
+        "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "useWallpaperColors": true
     },
@@ -195,7 +195,7 @@
         "shadowDirection": "bottom",
         "shadowOffsetX": 0,
         "shadowOffsetY": 3,
-        "showHibernateOnLockScreen": false,
+        "showHibernateOnLockScreen": true,
         "showScreenCorners": false
     },
     "hooks": {
@@ -316,15 +316,15 @@
     "templates": {
         "alacritty": false,
         "cava": false,
-        "code": false,
+        "code": true,
         "discord": true,
         "enableUserTemplates": false,
         "foot": false,
-        "fuzzel": true,
-        "ghostty": true,
+        "fuzzel": false,
+        "ghostty": false,
         "gtk": true,
         "kcolorscheme": true,
-        "kitty": true,
+        "kitty": false,
         "pywalfox": false,
         "qt": true,
         "spicetify": false,

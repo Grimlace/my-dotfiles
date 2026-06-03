@@ -86,3 +86,11 @@ open liga_colombiana_limpia.csv | where equipo == 'Atlético Nacional' | get gol
 open liga_colombiana_limpia.csv | get puntos | math sum
 open liga_colombiana_limpia.csv | where equipo == 'Atlético Nacional' | get goles_contra | math avg
 open liga_colombiana_limpia.csv | group-by equipo | items { |nombre fila| {equipo: $nombre, promedio: ($fila | get puntos | math avg), total: ($fila | get puntos | math sum), partidos: ($fila | length) } } | sort-by promedio | reverse
+yazi
+home-manager
+"hola"
+from
+ls
+cd Pictures/
+z
+ls

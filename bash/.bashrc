@@ -27,7 +27,8 @@ alias ls="eza --long --icons"
 alias lsa="ls -a"
 alias lt="ls --tree --level=2"
 alias lta="lt -a"
-
+alias gita="git add"
+alias gitc="git commit -m"
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/emulator:$PATH

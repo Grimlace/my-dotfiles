@@ -12,6 +12,8 @@ background-opacity = 0.95
 quit-after-last-window-closed = true
 confirm-close-surface = false
 
+copy-on-select = false
+
 # window-padding-x = 2
 
 #
@@ -28,4 +30,6 @@ confirm-close-surface = false
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = noctalia
+theme = catppuccin-mocha
+# custom-shader = ~/.config/ghostty/shaders/water.glsl
+#

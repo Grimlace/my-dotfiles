@@ -2,6 +2,9 @@
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
     	"source": "~/.config/fastfetch/logo.txt",
+      "color": {
+        "1": "blue",
+      },
       "padding": {
     		"top": 3,
         "right": 1
@@ -14,35 +17,40 @@
         "break",
         "break",
         {
-            "type": "title",
-            "keyWidth": 10
+          "type": "title",
+          "keyWidth": 10,
+          "color": {
+            "user": "33",
+            "at": "33",
+            "host": "33"
+          } 
         },
         {
             "type": "custom",
-            "format": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "format": "{#yellow}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
         },
         {
             "type": "os",
             "format": "{name}",
             "key": "OS  ",
-            "keyColor": "31", 
+            "keyColor": "32", 
         },
         {
             "type": "kernel",
             "format": "{sysname} {release}",
             "key": " ├  ",
-            "keyColor": "31",
+            "keyColor": "32",
         },
         {
             "type": "packages",
             "format": "{pacman} (pacman) {flatpak-system} (flatpak)",
             "key": " ├ 󰏖 ",
-            "keyColor": "31",  
+            "keyColor": "32",  
         },
         {
             "type": "shell",
             "key": " └  ",
-            "keyColor": "31", 
+            "keyColor": "32", 
         },
         "break",
         {
@@ -84,36 +92,36 @@
             "type": "host",
             "format": "{name}",
             "key": "PC 󰐥 ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         {
             "type": "cpu",
             "format": "{name}",
             "key": " ├  ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         {
             "type": "gpu",
             "format": "{name}",
             "key": " ├ 󰢮 ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         {
             "type": "memory",
             "key": " ├  ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         {
             "type": "disk",
             "format": "{size-used} / {size-total} ({size-percentage})",
             "key": " ├ 󰋊 ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         {
             "type": "monitor",
             "format": "{width}x{height} px @ {refresh-rate} Hz",
             "key": " └ 󰍹 ",
-            "keyColor": "37",
+            "keyColor": "31",
         },
         "break",
         "colors",
