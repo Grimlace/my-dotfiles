@@ -1,3 +1,5 @@
 paru
 ssh/.ssh/git_me
-ssh/.ssh/git_me.pub
+*.pub
+known_hosts
+known_hosts.old
